@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: vazir;
+    background: darkslateblue;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    width: 100%;
+}
+/* headers styles */
+#header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+/* logo style */
+#header .logo-link .logo-img {
+    width: 80px;
+}
+/* navbar style */
+#header .navbar-list {
+    display: flex;
+    gap: 30px;
+}
+/* contact link */
+#header .header-contact-link {
+background: darkslateblue;
+color: white;
+padding: 5px 10px;
+border-radius: 20px;
+}
+/* product list styles */
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+   gap: 20px;
+justify-content: space-around;
+margin: 80px 40px;
+}
+.menu-list .menu-item {
+    background: #ffffff2c;
+    border-radius: 20px;
+    width: 29%;
+    color: white;
+    padding: 10px;
+}
+.menu-list .menu-item .menu-img {
+    width: 200px;
+    height: 200px;
+    object-fit:contain ;
+    display: block;
+    margin: 0 auto;
+}
+.menu-list .menu-item .menu-title {
+    border-top: 1px solid white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.menu-list .menu-item .menu-info {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list .menu-item .menu-info .order-link {
+    background: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: darkslateblue;
+
+}
+/* footer styles */
+#footer {
+    background: white;
+    padding: 50px 25px ;
+}
+#footer .footer-info-box {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+#footer .footer-info-box .footer-section {
+    width: 50%;
+}
+#footer .footer-info-box .footer-section .footer-title {
+    margin-bottom: 10px;
+}
+#footer .footer-info-box .footer-section .footer-info {
+    line-height: 30px;
+}
+#footer .footer-info-box .footer-section .footer-link {
+  margin: 10px;
+}
+#footer .footer-copyright {
+    text-align: center;
+    margin-top: 40px;
+}
+#footer .go-top-link {
+    background: darkslateblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
